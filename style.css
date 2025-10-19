@@ -1,0 +1,135 @@
+/* Estilo geral do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #121212;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    color: #980dc3;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.5em;
+    color:antiquewhite;
+    border-bottom: 2px solid #00d9ff;
+    padding-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 1px solid #00d9ff;
+    padding-bottom: 0.2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #00d9ff;
+}
+
+/* Parágrafos */
+p {
+    margin: 1em 0;
+}
+
+/* Links */
+a {
+    color: #4fc3f7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Listas */
+ul, ol {
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 0.8em;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #00ff88;
+}
+
+tr:nth-child(even) {
+    background-color: #1e1e1e;
+}
+
+/* Blocos de código */
+pre, code {
+    font-family: 'Courier New', monospace;
+    background-color: #1e1e1e;
+    color: #c5e1a5;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+pre {
+    overflow-x: auto;
+}
+
+/* Citações */
+blockquote {
+    border-left: 5px solid #ffa500;
+    padding-left: 1em;
+    color: #e0e0e0;
+    font-style: italic;
+    margin: 1em 0;
+}
+
+/* Separadores */
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin: 2em 0;
+}
+
+/* Menu lateral fixo à direita */
+.container {
+  display: flex;
+  width: 100%;
+}
+.sidebar-right {
+  width: 250px; /* Ajuste a largura conforme necessário */
+  background-color: #000000ff;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  overflow-y: auto; /* Para permitir rolagem, caso o menu seja longo */
+  padding: 20px;
+  box-sizing: border-box;
+}
+.content {
+  margin-right: 270px; /* Espaço para o menu */
+  padding: 20px;
+  width: calc(100% - 270px); /* Ajuste conforme a largura do menu */
+}
