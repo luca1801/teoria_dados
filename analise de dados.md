@@ -2,7 +2,7 @@
   <div class="sidebar-right">
     <ul>
       <li><a href="#Ciclo-de-vida-da-análise-de-dados">Ciclo de vida da análise de dados</a></li>
-      <li><a href="#Tipos-de-dados">Tipos de Dados</a></li>
+      <li><a href="#Tipo-de-dados">Tipos de Dados</a></li>
       <li><a href="#">Link 3</a></li>
     </ul>
   </div>
@@ -192,17 +192,9 @@ Esta é uma excelente forma de refinar o entendimento sobre a infraestrutura de 
 
 Aqui está um detalhamento desses tipos de dados sob essa perspectiva mais técnica e refinada:
 
----
+## 3. Classificação pela Origem: Primários e Secundários
 
-# classificação dos dados
-
-Detalhes importantes em dado, a origem da coleta (**primários/secundários**) e o nível de processamento ou tipo fundamental (**primitivos/não primitivos**).
-
----
-
-## 1. Classificação pela Origem: Primários e Secundários
-
-Esta classificação se refere a **quem coletou o dado** e a sua finalidade inicial.
+Esta classificação se refere a **quem coletou o dado** e a sua finalidade inicial, a origem da coleta.
 
 ### A. Dados Primários
 
@@ -236,7 +228,7 @@ São dados que **já foram coletados, processados e publicados** por outra entid
 
 ---
 
-## 2. Classificação pelo Nível Fundamental: Primitivos e Não Primitivos
+## 4. Classificação pelo Nível Fundamental: Primitivos e Não Primitivos
 
 Esta classificação se refere ao **tipo fundamental do dado** na perspectiva técnica (programação/banco de dados) e ao nível de processamento que ele sofreu.
 
@@ -281,7 +273,7 @@ Para um analista, as classificações se sobrepõem e definem o trabalho:
 
 O ciclo de análise de dados é essencialmente o processo de pegar **dados primitivos, primários** ou **secundários** e transformá-los em **dados não primitivos** (como *insights* e modelos) para a tomada de decisão.
 
-## 3. Classificação pelo Nível de Estrutura
+## 5. Classificação pelo Nível de Estrutura
 
 Antes de tudo, a característica mais importante de um dado é a sua estrutura. Isso afeta diretamente a escolha do banco de dados e da linguagem para processamento.
 
@@ -293,7 +285,7 @@ Antes de tudo, a característica mais importante de um dado é a sua estrutura. 
 
 ---
 
-## 4. Tipos de Dados no Banco de Dados (SQL vs. NoSQL)
+## 6. Tipos de Dados no Banco de Dados (SQL vs. NoSQL)
 
 O sistema de gerenciamento de banco de dados (SGBD) define como o dado é armazenado e otimizado.
 
@@ -318,7 +310,7 @@ Em bancos NoSQL (especialmente os de documentos como o MongoDB), os dados são f
 
 ---
 
-## 5. Fontes de Dados e Linguagens de Programação
+## 7. Fontes de Dados e Linguagens de Programação
 
 A **Linguagem de Programação** (como Python ou R) atua como a ponte entre a fonte de dados e o armazenamento/análise.
 
