@@ -54,6 +54,11 @@ a:hover {
 ul, ol {
     margin: 1em 0;
     padding-left: 2em;
+    list-style-type: square; /* Changes bullets to squares */
+}
+ul li::marker {
+  color: rgb(230, 0, 255); /* Changes the color of the default bullet */
+  font-size: 1.2em; /* Increases the size of the bullet */
 }
 
 li {
